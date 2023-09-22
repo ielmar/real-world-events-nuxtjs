@@ -1,5 +1,5 @@
 <template>
-  <Tutorial />
+  <EventsIndex />
 </template>
 
 <script lang="ts">
