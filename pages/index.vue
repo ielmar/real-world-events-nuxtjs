@@ -1,11 +1,18 @@
 <template>
-  <EventsIndex />
+  <div>
+    <header class="bg-white shadow">
+      <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+        <h1 class="text-3xl font-bold tracking-tight text-gray-900">Events</h1>
+      </div>
+    </header>
+    <main>
+      <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
+        <HomeSlider />
+        <IncomingEvents />
+        <FeatureSection />
+        <StatsSection />
+        <PartnersSection />
+      </div>
+    </main>
+  </div>
 </template>
-
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
-  name: 'IndexPage',
-})
-</script>
